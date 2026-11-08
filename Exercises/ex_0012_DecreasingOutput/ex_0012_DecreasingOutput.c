@@ -20,9 +20,9 @@ void ex_0012_DecreasingOutput(void)
   do
   {
     printf("Please enter 3 integers separated by commas: ");
-    scan_check = scanf("%d,%d,%d", &integer_1, &integer_2, &integer_3);
+    scan_check = scanf("%d , %d , %d", &integer_1, &integer_2, &integer_3);
 
-    int c = 0;
+    int c;
     do
     {
       c = getchar();

@@ -30,14 +30,14 @@ void ex_0013_SecondOrderEquation(void)
 
   // TODO: read coefficients a, b and c, then print the real solutions of the equation
 
-  int a = 0;
-  int b = 0;
-  int c = 0;
+  double a = 0.;
+  double b = 0.;
+  double c = 0.;
   int status = 0;
 
   do{
     printf("%s%s", usage_message, input_message);
-    status = scanf("%d %d %d", &a, &b, &c);
+    status = scanf(" %lf %lf %lf", &a, &b, &c);
 
     int x = 0;
     do{
