@@ -8,6 +8,12 @@
 
 int main(void)
 {
+  int i = 0;
+  scanf(" %d", &i);
+
+  int val = ex_0022_Invert(i);
+
+  printf("%d, %d\n", i, val);
 
   return 0;
 }

@@ -9,4 +9,9 @@
 
 // Function prototypes
 
+int ex_0019_Read(int min, int max);
+
+void ex_0019_MultiplicationTable(int val);
+
+
 #endif // EX_0019_MULTIPLICATIONTABLE_H

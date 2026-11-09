@@ -8,5 +8,6 @@
 // Local includes
 
 // Function prototypes
+double ex_0020_Calculator(double val1, double val2, char f_operator);
 
 #endif // EX_0020_CALCULATOR_H
