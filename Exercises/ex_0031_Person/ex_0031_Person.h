@@ -8,7 +8,14 @@
 // Local includes
 
 // Types
+typedef struct
+{
+    char last[20];
+    char first[20];
+    int birthYear;
+} Person;
 
 // Function prototypes
+void ex_0031_Person(void);
 
 #endif // EX_0031_PERSON_H
